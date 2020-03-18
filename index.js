@@ -3,7 +3,7 @@ function BoardMember (name, homeState, training) {
   this.homeState = homeState,
   this.training = training;
   
-  get veto () {
+  BoardMember.prototype.veto = () => {
     return "no, I must disagree"
   }
   
