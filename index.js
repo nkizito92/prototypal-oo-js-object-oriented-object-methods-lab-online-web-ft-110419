@@ -6,5 +6,5 @@ function BoardMember (name, homeState, training) {
   BoardMember.prototype.veto = () => {
     return "No, I must disagree"
   }
-  
+  BoardMember.prototype.approve = () => "You can do that!"
 }
